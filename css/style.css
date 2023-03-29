@@ -1,0 +1,460 @@
+* {margin:0; padding:0;}
+
+
+/* header design */
+header{
+    position: absolute;
+    width: 192px;
+    height: 33px;
+    left: 40px;
+    top: 12px;
+    display: block;
+}
+
+header section{
+    position: absolute;
+    width: 154px;
+    height: 33px;
+    left: 78px;
+    top: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.25em;
+    color: #3E3F43;
+    display: block;
+}
+
+header img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 40px;
+    top: 41px;
+    display: block;
+}
+
+/* main design */
+
+.pinkcolor{
+    position: absolute;
+    width: 100%;
+    height: 555px;
+    left: 0px;
+    top: 123px;
+    background: #F9BDBD;
+    display: block;
+}
+
+.cover{
+    /* Rectangle 5 */
+
+    position: absolute;
+    width: 278px;
+    height: 388px;
+    left: 40px;
+    top: 140px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    background: #F7DEA6;
+
+}
+
+.mainSentence{
+    position: absolute;
+    width: 448px;
+    height: 98px;
+    left: 506px;
+    top: 206px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+}
+
+.secondarySentence{
+    position: absolute;
+    width: 448px;
+    height: 66px;
+    left: 506px;
+    top: 320px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+img.TandG{
+    position: absolute;
+    width: 426px;
+    height: 388px;
+    left: 40px;
+    top: 180px;
+}
+
+/* Title for "About", "Exercises", "Programming Languages" */
+.Titles{   
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+
+
+    color: #000000;
+}
+
+.aboutTitle{
+    position: absolute;
+    width: 89px;
+    height: 40px;
+    left: 40px;
+    top: 600px;
+}
+
+.exTitle{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 40px;
+    top: 990px;
+}
+
+.progTitle{
+    position: absolute;
+    width: 364px;
+    height: 40px;
+    left: 40px;
+    top: 1350px;
+}
+
+/* Text "About and Programming Languages */
+.aboutAndProgText{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    /* or 28px */
+    text-align: justify;
+
+    color: #000000;
+}
+
+.aboutText{
+    position: absolute;
+    left: 3.33%;
+    right: 34.92%;
+    top: 650px;
+    bottom: 61.33%;
+}
+
+.progLanguagesText{
+    position: absolute;
+    height: 141px;
+    width: 364px;
+    left: 70px;
+    top: 1420px;
+    border-radius: nullpx;
+
+}
+
+.yourChoiceTitle{
+    position: absolute;
+    height: 40px;
+    left: 40px;
+    top: 1600px;
+}
+
+/* cards design */
+
+.cards{
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 40px;
+    top: 1055px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+    /* box-shadow: 10px 30px 400px rgba(0, 0, 0, 0.25); */
+    border-radius: 50px;
+}
+
+.photo{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 90px;
+    left: calc(50% - 80px/2 - 36px);
+    top: 24px;
+}
+
+.exTitleCards{
+    position: absolute;
+    width: 77px;
+    height: 24px;
+    left: calc(50% - 77px/2 - 37.5px);
+    top: 128px;
+
+    /* Product - H5 ∙ 16|24 / Medium */
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.viewCards1{
+    position: absolute;
+    height: 40px;
+    left: 12%;
+    right: 28.21%;
+    bottom: 40px;
+    border-radius: 30px;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    color: #171F46;
+    background: #FFFFFF;
+}
+
+.viewCards1:hover{
+    background: #171F46;
+    color: #FDEDE5;
+}
+
+
+.viewCards2{
+    position: absolute;
+    height: 40px;
+    left: 12%;
+    right: 28.21%;
+    bottom: 40px;
+    border-radius: 30px;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    color: #171F46;
+    background: #FFFFFF;
+}
+
+.viewCards2:hover{
+    background: #171F46;
+    color: #EBF1FF;
+}
+
+.viewCards3{
+    position: absolute;
+    height: 40px;
+    left: 12%;
+    right: 28.21%;
+    bottom: 40px;
+    border-radius: 30px;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    color: #171F46;
+    background: #FFFFFF;
+}
+
+.viewCards3:hover{
+    background: #171F46;
+    color: #EBFFEC;
+}
+
+.viewCards4{
+    position: absolute;
+    height: 40px;
+    left: 12%;
+    right: 28.21%;
+    bottom: 40px;
+    border-radius: 30px;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    color: #171F46;
+    background: #FFFFFF;
+}
+
+.viewCards4:hover{
+    background: #171F46;
+    color:  #FFEBFC;
+}
+
+.viewCards5{
+    position: absolute;
+    height: 40px;
+    left: 12%;
+    right: 28.21%;
+    bottom: 40px;
+    border-radius: 30px;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    color: #171F46;
+    background: #FFFFFF;
+}
+
+.viewCards5:hover{
+    background: #171F46;
+    color: #FFFEEB;
+}
+
+
+.ex1card{
+    left: 40px;
+    background: #FDEDE5;
+}
+
+.ex2card{
+    left: 264px;
+    background: #EBF1FF;
+}
+
+.ex3card{
+    left: 488px;
+    background: #EBFFEC;
+}
+
+.ex4card{
+    left: 712px;
+    background: #FFEBFC;
+}
+
+.ex5card{
+    left: 936px;
+    background: #FFFEEB;
+}
+
+.pinkArea2{
+    position: absolute;
+    width: 1170px;
+    height: 508px;
+    left: 50px;
+    top: 1670px;
+    border-radius: 30px;
+    background: #F9BDBD;
+}
+
+.motto{
+    position: absolute;
+    width: 100%;
+    height: 98px;
+    top: 160px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 80px;
+    color: #3E3F43;
+}
+
+.grayArea{
+    position: absolute;
+    width: 100%;
+    height: 301px;
+    top: 2500px;
+    background: #e8e8ea;
+
+    /* background: url(pexels-photo-509922.jpg); */
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.followTitle{
+    position: absolute;
+    /* width: 400px; */
+    height: 25px;
+    left: 40px;
+    top: 45px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #333333;
+}
+
+.socialMedia a{
+    position: absolute;
+    width: 60px;
+    height: 19px;
+    left: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    text-decoration: none; 
+    color: #8D8D8D;
+}
+
+.socialF{
+    top: 90px;
+}
+
+.socialI{
+    top: 130px;
+}
+
+.socialL{
+    top: 170px;
+}
+
+.allRights{
+    position: absolute;
+    height: 19px;
+    left: 40px;
+    top: 240px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #8D8D8D;
+}
