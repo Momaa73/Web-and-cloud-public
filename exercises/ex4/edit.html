@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Moran's form no. 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <form action="https://localhost/edit.php" method="get">
+        <h2>Edit playlists > create new</h2><br>
+        <lable>You chose "Supersonic" by Oasis.<br>
+            Before we add your song to a playlist - </lable><br><br>
+        <label>the name of the playlist you want to add this song to<input type="text" name="playlistName" placeholder="enter playlist name" class="form-control" required></label><br><br>
+        <lable>Rate the song from 1 to 5 stars<input type="tel" name="rate" placeholder="enter a number from 1 to 5" class="form-control" pattern = "[1-5]{1}" required></label><br>
+        <label>Did you like this song?<br>
+            <label><input type="radio" name="liked" value="1" required>  Yes</label><br>
+            <label><input type="radio" name="liked" value="2">  No</label>
+        </label><br><br>
+        <button type="submit" class="btn btn-outline-secondary">I'm done !</button><br><br>
+    </form>
+</body>
+</html>
